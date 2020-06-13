@@ -29,7 +29,12 @@ body{
 .header__top{
 	background-color: #303030;
 }
+.header__btn-menu{
+	display: none;
+	font-size: 28px;
+}
 .header__btn{
+	display: block;
 	float: right;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
@@ -89,6 +94,7 @@ body{
 	display: flex;
 	justify-content: space-between;
 }
+
 .menu li{
 	display: inline-block;
 }
@@ -133,6 +139,7 @@ body{
 	text-transform: uppercase;
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
+	line-height: 36px;
 	letter-spacing: 0.5px;
 	font-weight: 400;
 	font-size: 30px;
@@ -145,6 +152,7 @@ body{
 	margin-bottom: 47px;
 }
 .default-btn{
+
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
@@ -604,11 +612,12 @@ body{
 .footer__map{
 	padding-top: 10px;	
 	max-width: 630px;	
-}
-/* .footer__map iframe{
-	height: 250px;
 	width: 100%;
-} */
+}
+.footer__map iframe{
+	
+	width: 100% ;
+}
 .footer__inner .header__btn{
 	float: none;
 	display: inline-block;
@@ -668,7 +677,7 @@ body{
 }
 
 
-#modal input, button{
+#modal input, .modal__btn{
 	display: block;
 	width: 100%;
 	margin-bottom: 20px;
@@ -677,7 +686,7 @@ body{
 	border: 1px solid #e6e6e6;
 	padding: 0px 10px;
 }
-#modal button[type=submit]{
+#modal .modal__btn{
 	background-color: #ffc222;
 	border: none;
 	cursor: pointer;

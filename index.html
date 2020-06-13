@@ -13,18 +13,18 @@
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/jquery.formstyler.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
-	<!-- header -->
+
 	<header class="header">
 		<div class="header__top">
 			<div class="container">
 				<div class="header__contacts">
 					<a class="header__phone" href="tel:380963092145">+38 (096) 309 21 45</a>
 					<a class="header__email" href="#">layout585@gmail.com</a>
-					<a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Бесплатная
-						консультация</a>
+					<a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Бесплатная консультация</a>
 				</div>
 			</div>
 		</div>
@@ -39,6 +39,7 @@
 					</div>
 
 					<nav class="menu">
+						<div class="header__btn-menu"><span class="icon-bars"></span></div>
 						<ul>
 							<li><a href="#">Главная</a></li>
 							<li><a href="#">О компании</a></li>
@@ -50,11 +51,11 @@
 			</div>
 		</div>
 	</header>
-	<!-- /header -->
+	
 
 
 
-	<!-- slider -->
+	
 	<section class="slider">
 		<div class="container">
 			<div class="slider__inner">
@@ -90,9 +91,7 @@
 			</div>
 		</div>
 	</section>
-	<!-- /slider -->
 
-	<!-- services -->
 	<section class="services">
 		<div class="container">
 			<div class="services__top">
@@ -144,9 +143,7 @@
 
 		</div>
 	</section>
-	<!-- /services -->
 
-	<!-- about -->
 	<section class="about">
 		<div class="container">
 			<div class="about__inner">
@@ -160,9 +157,7 @@
 			</div>
 		</div>
 	</section>
-	<!-- /about -->
 
-	<!-- form -->
 	<section class="form">
 		<div class="container">
 			<div class="form__inner">
@@ -217,9 +212,7 @@
 			</div>
 		</div>
 	</section>
-	<!-- /form -->
 
-	<!-- advantages -->
 	<section class="advantages">
 		<div class="container">
 			<div class="abvantages__inner">
@@ -243,9 +236,7 @@
 			</div>
 		</div>
 	</section>
-	<!-- /advantages -->
 
-	<!-- news -->
 	<section class="news">
 		<div class="container">
 			<div class="news__top">
@@ -322,9 +313,7 @@
 			</div>
 		</div>
 	</section>
-	<!-- /news -->
 
-	<!-- footer -->
 	<footer class="footer">
 		<div class="footer__content">
 			<div class="container">
@@ -340,7 +329,7 @@
 						</ul>
 					</div>
 					<div class="footer__map">
-						<iframe width="630px" height="250px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5080.308938662157!2d30.364149539119623!3d50.45684817262328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc919501b4ef%3A0x71a476f68f4c8246!2z0YPQuy4g0KTQtdC-0LTQvtGA0Ysg0J_Rg9GI0LjQvdC-0LksIDEzLCDQmtC40LXQsiwg0KPQutGA0LDQuNC90LAsIDAyMDAw!5e0!3m2!1sru!2sru!4v1591977396002!5m2!1sru!2sru" frameborder="0" tyle="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+						<iframe  height="250px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5080.308938662157!2d30.364149539119623!3d50.45684817262328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc919501b4ef%3A0x71a476f68f4c8246!2z0YPQuy4g0KTQtdC-0LTQvtGA0Ysg0J_Rg9GI0LjQvdC-0LksIDEzLCDQmtC40LXQsiwg0KPQutGA0LDQuNC90LAsIDAyMDAw!5e0!3m2!1sru!2sru!4v1591977396002!5m2!1sru!2sru" frameborder="0" tyle="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 					</div>
 				</div>
 			</div>
@@ -349,7 +338,7 @@
 			<div class="copy__text">© 2017 Template by Anastasia Shaposhnyk. Все права защищены.</div>
 		</div>
 	</footer>
-	<!-- /footer -->
+
 
 
 	<!-- modal -->
@@ -357,7 +346,7 @@
 		<form>
 			<input type="text" placeholder="Ваше имя" required>
 			<input type="text" placeholder="Ваш телефон" required>
-			<button type="submit">Отправить</button>
+			<button class="modal__btn" type="submit">Отправить</button>
 		</form>
 	</div>
 	<!-- /modal -->
